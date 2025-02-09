@@ -1,0 +1,22 @@
+.section.alert-bar-container.hide {
+  display: none;
+}
+
+.alert-bar-wrapper {
+  margin: 0 !important;
+  max-width: 100% !important;
+  text-align: center;
+  color: #fff !important;
+  font-size: 16px;
+}
+
+.alert-bar p {
+  margin: 0;
+  padding: 12px 1rem;
+  line-height: normal;
+}
+
+.alert-bar p a {
+  color: inherit;
+  text-decoration: underline;
+}

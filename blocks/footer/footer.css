@@ -1,0 +1,138 @@
+footer {
+  background-color: var(--light-color);
+  font-size: var(--body-font-size-s);
+}
+
+footer .footer {
+  margin: auto;
+}
+
+footer .footer .section:first-of-type > .default-content-wrapper {
+  position: relative;
+}
+
+footer .footer .section:first-of-type > .default-content-wrapper p:first-of-type img {
+  height: 100vh;
+}
+
+footer .footer .section:first-of-type > .default-content-wrapper p:nth-of-type(2) {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+footer .footer .section:first-of-type > .default-content-wrapper p:last-of-type {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+footer .footer .section:nth-child(2) {
+  padding: 3rem 5rem;
+}
+
+footer .footer > div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+footer .footer > div > div {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+}
+
+footer .footer p {
+  margin: 0;
+}
+
+footer .footer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+footer .footer .icon {
+  height: 100%;
+  width: 100%;
+}
+
+footer .footer .button-container {
+  margin: 0;
+}
+
+footer .footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+footer .footer ul > li {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer .footer ul > li > ul > li {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+footer .footer ul > li > ul > li  a {
+  color: #000;
+}
+
+footer .footer .section:nth-of-type(2) .default-content-wrapper > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem 5rem;
+}
+
+footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) img {
+  width: 22px;
+  height: 22px;
+}
+
+footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) > ul {
+  gap: 1rem;
+  box-sizing: border-box;
+}
+
+footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) > ul > li {
+  flex: 0 0 48%;
+}
+
+footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) > ul > li > ul > li > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(3) p {
+  font-size: 14px;
+}
+
+@media (width <= 900px) {
+  footer .footer > div {
+    flex-direction: column;
+  }
+
+  footer .footer .section:first-of-type > .default-content-wrapper p:first-of-type img {
+    height: 100%;
+  }
+
+  footer .footer .section:nth-child(2) {
+    padding: 1rem;
+  }  
+
+  footer .footer .icon {
+    max-width: 240px;
+    height: auto;
+  }
+
+  footer .footer .section:nth-of-type(2) .default-content-wrapper > ul {
+    gap: 1rem 2rem;
+  }
+}

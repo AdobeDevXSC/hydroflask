@@ -1,0 +1,151 @@
+.cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 16px;
+}
+
+.cards > ul > li {
+  background-color: var(--background-color);
+	position: relative;
+	box-sizing: border-box;
+}
+
+.cards > ul > li .cards-card-title {
+	padding: 1.5rem 1rem 0;
+}
+
+.cards > ul > li .cards-card-title .card-title {
+	box-sizing: border-box;
+	font-size: 30px;
+	padding-right: 22px;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+/* surf */
+.cards > ul > li.surf {
+	background-color: #e3ecf7;
+}
+
+.cards > ul > li.surf::after {
+	content: '';
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #5F778C;
+}
+
+.cards > ul > li.surf .card-title  {
+	border: 1px solid #5F778C;
+} 
+
+.cards > ul > li.surf .card-title strong {
+	background: #5F778C;
+	color: #fff;
+	margin-right: 12px;
+	padding: 4px 18px;
+} 
+
+/* aloe */
+.cards > ul > li.aloe {
+	background-color: #d7e7ca;
+}
+
+.cards > ul > li.aloe::after {
+	content: '';
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #A9BEA8;
+}
+
+.cards > ul > li.aloe .card-title  {
+	border: 1px solid #A9BEA8;
+} 
+
+.cards > ul > li.aloe .card-title strong {
+	background: #A9BEA8;
+	margin-right: 12px;
+	padding: 4px 18px;
+} 
+
+/* reef */
+.cards > ul > li.reef {
+	background-color: #e5bfce;
+}
+
+.cards > ul > li.reef::after {
+	content: '';
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #B7527B;
+}
+
+.cards > ul > li.reef .card-title  {
+	border: 1px solid #B7527B;
+} 
+
+.cards > ul > li.reef .card-title strong {
+	background: #B7527B;
+	color: #fff;
+	margin-right: 12px;
+	padding: 4px 18px;
+} 
+
+.cards > ul > li img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards > ul > li p {
+  width: 100%;
+  object-fit: cover;
+	margin: 0;
+}
+
+.cards .cards-card-body {
+  margin: 16px;
+	position: relative;
+	z-index: 1;
+}
+
+.cards .cards-card-image {
+  line-height: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.cards .cards-card-body > *:first-child {
+  margin-top: 0;
+}
+
+.cards .cards-card-body p.button-container a {
+  width: 260px;
+	margin-bottom: 0;
+}
+
+@media (width <= 900px) {
+	.cards > ul {
+		display: flex;
+		flex-direction: row;
+		overflow-x: scroll;
+	}
+
+	.cards > ul > li {
+		min-width: 280px;
+	}
+
+	.cards .cards-card-body p.button-container a {
+		width: 220px;
+	}
+}

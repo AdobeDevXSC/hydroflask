@@ -1,8 +1,8 @@
 # Door Opener Boilerplate
 
 ## Environments
-- Preview: https://main--dev-xsc-boilerplate--adobedevxsc.aem.page/
-- Live: https://main--dev-xsc-boilerplate--adobedevxsc.aem.live/
+- Preview: https://main--hydroflask--adobedevxsc.aem.page/
+- Live: https://main--hydroflask--adobedevxsc.aem.live/
 
 ## Documentation
 

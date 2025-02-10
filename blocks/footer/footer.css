@@ -9,10 +9,15 @@ footer .footer {
 
 footer .footer .section:first-of-type > .default-content-wrapper {
   position: relative;
+  height: 100%;
+}
+
+footer .footer .section:first-of-type > .default-content-wrapper p:first-of-type {
+  height: 100%;
 }
 
 footer .footer .section:first-of-type > .default-content-wrapper p:first-of-type img {
-  height: 105vh;
+  height: 100%;
 }
 
 footer .footer .section:first-of-type > .default-content-wrapper p:nth-of-type(2) {
@@ -102,6 +107,10 @@ footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2)
 
 footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) > ul > li {
   flex: 0 0 48%;
+}
+
+footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) > ul > li:nth-of-type(2) {
+  font-size: 16px;
 }
 
 footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) > ul > li > ul > li > ul {

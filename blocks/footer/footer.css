@@ -12,7 +12,7 @@ footer .footer .section:first-of-type > .default-content-wrapper {
 }
 
 footer .footer .section:first-of-type > .default-content-wrapper p:first-of-type img {
-  height: 100vh;
+  height: 105vh;
 }
 
 footer .footer .section:first-of-type > .default-content-wrapper p:nth-of-type(2) {
@@ -38,7 +38,7 @@ footer .footer > div {
 }
 
 footer .footer > div > div {
-  flex: 0 0 50%;
+  flex: 0 0 48%;
   box-sizing: border-box;
 }
 

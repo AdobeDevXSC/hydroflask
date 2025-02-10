@@ -87,7 +87,7 @@ footer .footer ul > li > ul > li  a {
 footer .footer .section:nth-of-type(2) .default-content-wrapper > ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem 5rem;
+  gap: 2rem 6rem;
 }
 
 footer .footer .section:nth-of-type(2) > .default-content-wrapper:nth-of-type(2) img {
